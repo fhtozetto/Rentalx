@@ -1,4 +1,4 @@
-[Ignite - Node](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb66a498c-2515-4254-a448-513a21d2e6b4%2FCapa_-_Notion_(3).png?table=block&id=8011b127-fe79-4183-be1e-fad96afe5663&width=2280&userId=598d24f2-b067-44c5-b150-77aa693ee446&cache=v2)
+![2560x1080](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb66a498c-2515-4254-a448-513a21d2e6b4%2FCapa_-_Notion_(3).png?table=block&id=8011b127-fe79-4183-be1e-fad96afe5663&width=2280&userId=598d24f2-b067-44c5-b150-77aa693ee446&cache=v2)
 # Ignite - Node / Docker / Postgres
 Este é uma projeto usado como modelo para estudo, o sistema será responsável por fazer o controle de uma locadora de carros, usando vários princípios de SOLID.
 
