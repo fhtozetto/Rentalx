@@ -1,0 +1,56 @@
+# Cadastro de Carro
+
+**Requisitos Funcionais (RF)**
+- [ ] Deve ser possível cadastrar um carro.
+- [ ] Deve ser possível listar todas as categorias.
+
+**Regra de Negócios (RN)**
+- [ ] Não deve ser possível cadastrar uma carro com uma placa já existente.
+- [ ] Não deve ser possível alterar a placa de um carro já cadastrado.
+- [ ] O carro deve ser cadastrado por padrão com disponibilidade.
+- [ ] O usuário responsável pelo cadastro deve ser um administrador.
+
+# Lista de Carros
+
+**Requisitos Funcionais (RF)**
+- [ ] Deve ser possível listar todos os carros disponíveis.
+- [ ] Dever ser possível listar todos os carros disponíveis pelo nome da categoria.
+- [ ] Dever ser possível listar todos os carros disponíveis pelo nome da marca.
+- [ ] Dever ser possível listar todos os carros disponíveis pelo nome da carro.
+
+**Regra de Negócios (RN)**
+- [ ] O usuário não precisa estár logado no sistema para buscar um carro.
+
+# Cadastro de Especificação no Carro
+
+**Requisitos Funcionais (RF)**
+- [ ] Deve ser possível cadastrar uma especificação para um carro.
+- [ ] Deve ser possível listar todas as especificações.
+- [ ] Deve ser possível listar todos os carros.
+
+**Regra de Negócios (RN)**
+- [ ] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
+- [ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+
+# Cadastro de Imagens do Carro
+
+**Requisitos Funcionais (RF)**
+- [ ] Deve ser possível cadastrar as imagens do carro
+- [ ] Deve ser possível listar todos os carros.
+
+**Requisitos Não Funcionais (RNF)**
+- [ ] Utilizar o multer para upload de arquivos.
+
+**Regra de Negócios (RN)**
+- [ ] O usuário deve poser cadastrar mais de uma imagem para o mesmo carro.
+- [ ] O usuário responsável pelo cadastro deve ser uma administrador.
+
+# Aluguel de Carro
+
+**Requisitos Funcionais (RF)**
+- [ ] Deve ser possível cadastrar uma aluguel.
+
+**Regra de Negócios (RN)**
+- [ ] O aluguem deve ter duração mínima de 24 horas.
+- [ ] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo usuário.
+- [ ] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo carro.
