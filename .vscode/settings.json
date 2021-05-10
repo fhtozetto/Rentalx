@@ -1,0 +1,19 @@
+{
+    "cSpell.ignoreWords": [
+        "camelcase",
+        "dtos",
+        "jsxdev",
+        "middlewares",
+        "openapi",
+        "originalname",
+        "postgres",
+        "rentalx",
+        "rentx",
+        "respawn",
+        "tsyringe",
+        "uuidv"
+    ],
+    "cSpell.words": [
+        "typeorm"
+    ]
+}

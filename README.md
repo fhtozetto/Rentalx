@@ -6,7 +6,6 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 
 **Requisitos Funcionais (RF)**
 - [ ] Deve ser possível cadastrar um carro.
-- [ ] Deve ser possível listar todas as categorias.
 
 **Regra de Negócios (RN)**
 - [ ] Não deve ser possível cadastrar uma carro com uma placa já existente.
