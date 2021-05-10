@@ -8,10 +8,9 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 - [ ] Deve ser possível cadastrar um carro.
 
 **Regra de Negócios (RN)**
-- [ ] Não deve ser possível cadastrar uma carro com uma placa já existente.
-- [ ] Não deve ser possível alterar a placa de um carro já cadastrado.
-- [ ] O carro deve ser cadastrado por padrão com disponibilidade.
-- [ ] O usuário responsável pelo cadastro deve ser um administrador.
+- [x] Não deve ser possível cadastrar uma carro com uma placa já existente.
+- [x] O carro deve ser cadastrado por padrão com disponibilidade.
+- [ ] *O usuário responsável pelo cadastro deve ser um administrador.*
 
 ## Lista de Carros
 
