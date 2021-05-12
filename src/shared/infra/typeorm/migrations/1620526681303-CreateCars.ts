@@ -20,7 +20,7 @@ export class CreateCars1620526681303 implements MigrationInterface {
             type: 'varchar',
           },
           {
-            name: 'daily-rate',
+            name: 'daily_rate',
             type: 'numeric',
           },
           {
@@ -29,7 +29,7 @@ export class CreateCars1620526681303 implements MigrationInterface {
             default: true,
           },
           {
-            name: 'license-plate',
+            name: 'license_plate',
             type: 'varchar',
           },
           {
