@@ -10,18 +10,18 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 **Regra de Negócios (RN)**
 - [x] Não deve ser possível cadastrar uma carro com uma placa já existente.
 - [x] O carro deve ser cadastrado por padrão com disponibilidade.
-- [ ] *O usuário responsável pelo cadastro deve ser um administrador.*
+- [x] O usuário responsável pelo cadastro deve ser um administrador.
 
 ## Lista de Carros
 
 **Requisitos Funcionais (RF)**
-- [ ] Deve ser possível listar todos os carros disponíveis.
-- [ ] Dever ser possível listar todos os carros disponíveis pelo nome da categoria.
-- [ ] Dever ser possível listar todos os carros disponíveis pelo nome da marca.
-- [ ] Dever ser possível listar todos os carros disponíveis pelo nome da carro.
+- [x] Deve ser possível listar todos os carros disponíveis.
+- [x] Dever ser possível listar todos os carros disponíveis pelo nome da categoria.
+- [x] Dever ser possível listar todos os carros disponíveis pelo nome da marca.
+- [x] Dever ser possível listar todos os carros disponíveis pelo nome da carro.
 
 **Regra de Negócios (RN)**
-- [ ] O usuário não precisa estár logado no sistema para buscar um carro.
+- [x] O usuário não precisa estár logado no sistema para buscar um carro.
 
 ## Cadastro de Especificação no Carro
 
