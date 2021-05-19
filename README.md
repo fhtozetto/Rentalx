@@ -5,7 +5,7 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 ## Cadastro de Carro
 
 **Requisitos Funcionais (RF)**
-- [ ] Deve ser possível cadastrar um carro.
+- [x] Deve ser possível cadastrar um carro.
 
 **Regra de Negócios (RN)**
 - [x] Não deve ser possível cadastrar uma carro com uma placa já existente.
