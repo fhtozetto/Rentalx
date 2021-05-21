@@ -37,7 +37,6 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 
 **Requisitos Funcionais (RF)**
 - [ ] Deve ser possível cadastrar as imagens do carro
-- [ ] Deve ser possível listar todos os carros.
 
 **Requisitos Não Funcionais (RNF)**
 - [ ] Utilizar o multer para upload de arquivos.
