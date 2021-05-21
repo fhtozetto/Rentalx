@@ -7,15 +7,15 @@ import { CategoriesRepository } from '@modules/cars/infra/repositories/Categorie
 import { SpecificationsRepository } from '@modules/cars/infra/repositories/SpecificationsRepository';
 import { ICarsRepository } from '@modules/cars/repositories/ICarsRepository';
 import { ICategoriesRepository } from '@modules/cars/repositories/ICategoriesRepository';
-import { ISpecificationRepository } from '@modules/cars/repositories/ISpecificationsRepository';
+import { ISpecificationsRepository } from '@modules/cars/repositories/ISpecificationsRepository';
 
 container.registerSingleton<ICategoriesRepository>(
   'CategoriesRepository',
   CategoriesRepository,
 );
 
-container.registerSingleton<ISpecificationRepository>(
-  'SpecificationRepository',
+container.registerSingleton<ISpecificationsRepository>(
+  'SpecificationsRepository',
   SpecificationsRepository,
 );
 

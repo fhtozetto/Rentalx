@@ -26,13 +26,12 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 ## Cadastro de Especificação no Carro
 
 **Requisitos Funcionais (RF)**
-- [ ] Deve ser possível cadastrar uma especificação para um carro.
-- [ ] Deve ser possível listar todas as especificações.
-- [ ] Deve ser possível listar todos os carros.
+- [x] Deve ser possível cadastrar uma especificação para um carro.
 
 **Regra de Negócios (RN)**
-- [ ] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
-- [ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+- [x] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
+- [x] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrativo.
 
 ## Cadastro de Imagens do Carro
 
