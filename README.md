@@ -36,14 +36,14 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 ## Cadastro de Imagens do Carro
 
 **Requisitos Funcionais (RF)**
-- [ ] Deve ser possível cadastrar as imagens do carro
+- [x] Deve ser possível cadastrar as imagens do carro
 
 **Requisitos Não Funcionais (RNF)**
-- [ ] Utilizar o multer para upload de arquivos.
+- [x] Utilizar o multer para upload de arquivos.
 
 **Regra de Negócios (RN)**
-- [ ] O usuário deve poser cadastrar mais de uma imagem para o mesmo carro.
-- [ ] O usuário responsável pelo cadastro deve ser uma administrador.
+- [x] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
+- [x] O usuário responsável pelo cadastro deve ser uma administrador.
 
 ## Aluguel de Carro
 
