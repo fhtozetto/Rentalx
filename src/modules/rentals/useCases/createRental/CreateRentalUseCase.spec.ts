@@ -50,16 +50,16 @@ describe('Create Rental', () => {
   });
 
   it('should not be able to create a new rental if there is another open to the same car', async () => {
+    await createRentalUseCase.execute({
+      user_id: '123',
+      car_id: 'test',
+      expected_return_date: dayAdd24Hours,
+    });
+
     expect(async () => {
       await createRentalUseCase.execute({
-        user_id: '123',
-        car_id: 'test01',
-        expected_return_date: dayAdd24Hours,
-      });
-
-      await createRentalUseCase.execute({
         user_id: '321',
-        car_id: 'test02',
+        car_id: 'test',
         expected_return_date: dayAdd24Hours,
       });
     }).rejects.toBeInstanceOf(AppError);

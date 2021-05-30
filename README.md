@@ -48,9 +48,10 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 ## Aluguel de Carro
 
 **Requisitos Funcionais (RF)**
-- [ ] Deve ser possível cadastrar uma aluguel.
+- [x] Deve ser possível cadastrar uma aluguel.
 
 **Regra de Negócios (RN)**
-- [ ] O aluguel deve ter duração mínima de 24 horas.
-- [ ] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo usuário.
-- [ ] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo carro.
+- [x] O aluguel deve ter duração mínima de 24 horas.
+- [x] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo usuário.
+- [x] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo carro.
+- [x] O Usuário deve estar logado na aplicação.
