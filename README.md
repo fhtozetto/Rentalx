@@ -55,7 +55,7 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 - [x] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo usuário.
 - [x] Não deve ser possível cadastrar uma aluguel caso já exista um em aberto para o mesmo carro.
 - [x] O Usuário deve estar logado na aplicação.
-- [ ] Ao realizar um aluguel, o status do carro deverá ser alterado para indisponível.
+- [x] Ao realizar um aluguel, o status do carro deverá ser alterado para indisponível.
 
 ## Devolução de Carro
 
@@ -69,6 +69,7 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 - [ ] Ao realizar a devolução, deverá ser calculado o total do aluguel.
 - [ ] Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcional aos dias de atraso.
 - [ ] Caso haja multa, deverá ser somado ao total do aluguel.
+- [ ] O Usuário deve estar logado na aplicação.
 
 # Documentação da API On-line
 Com o servidor rodando acesse o endereço http://localhost:3333/api-docs/ no seu browser e verifique as rotas disponíveis no sistema.
@@ -80,5 +81,5 @@ Com o servidor rodando acesse o endereço http://localhost:3333/api-docs/ no seu
 ## Docker
 É necessário ter instalado o docker na versão 20.10.2 ou superior e o docker-compose na versão 1.28.5 ou superior https://www.docker.com/
 
-# Instalação do servidor no ambiente para testes.
-(em breve)
+# Como instalar do servidor em ambiente de teste.
+(Em Breve)
