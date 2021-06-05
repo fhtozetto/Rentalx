@@ -60,17 +60,24 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 ## Devolução de Carro
 
 **Requisitos Funcionais (RF)**
-- [ ] Deve ser possível realizar a devolução de uma carro.
+- [x] Deve ser possível realizar a devolução de uma carro.
 
 **Regra de Negócios (RN)**
-- [ ] Se o carro for devolvido com menos de 24 horas, deverá ser cobrado diária completa.
-- [ ] Ao Realizar a devolução, o carro deverá ser liberado para outro aluguel.
-- [ ] Ao realizar a devolução, o usuário deverá ser liberado para outro aluguel.
-- [ ] Ao realizar a devolução, deverá ser calculado o total do aluguel.
-- [ ] Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcional aos dias de atraso.
-- [ ] Caso haja multa, deverá ser somado ao total do aluguel.
-- [ ] O Usuário deve estar logado na aplicação.
+- [x] Se o carro for devolvido com menos de 24 horas, deverá ser cobrado diária completa.
+- [x] Ao Realizar a devolução, o carro deverá ser liberado para outro aluguel.
+- [x] Ao realizar a devolução, o usuário deverá ser liberado para outro aluguel.
+- [x] Ao realizar a devolução, deverá ser calculado o total do aluguel.
+- [x] Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcional aos dias de atraso.
+- [x] Caso haja multa, deverá ser somado ao total do aluguel.
+- [x] O Usuário deve estar logado na aplicação.
 
+## Listagem de alugueis para usuários
+
+**Requisitos Funcionais (RF)**
+- [x] Deve ser possível realizar a busca de todos os aluguéis para o usuário.
+
+**Regra de Negócios (RN)**
+- [x] O usuário deve estar logado na aplicação.
 # Documentação da API On-line
 Com o servidor rodando acesse o endereço http://localhost:3333/api-docs/ no seu browser e verifique as rotas disponíveis no sistema.
 
