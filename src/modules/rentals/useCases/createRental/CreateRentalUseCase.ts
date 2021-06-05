@@ -42,7 +42,7 @@ class CreateRentalUseCase {
     );
 
     if (rentalOpenToUser) {
-      throw new AppError('There is a rental in programa for user!');
+      throw new AppError('There is a rental in program for user!');
     }
 
     const dateNow = this.dateProvider.dateNow();
