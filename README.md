@@ -78,6 +78,18 @@ Este é uma projeto usado como modelo para estudo, o sistema será responsável 
 
 **Regra de Negócios (RN)**
 - [x] O usuário deve estar logado na aplicação.
+
+## Recuperar Senha
+
+**Requisitos Funcionais (RF)**
+- [ ] Deve ser possível o usuário recuperar a senha informando o e-mail.
+- [ ] O usuário deve receber uma e-mail com o passo a passo para a recuperação de senha.
+- [ ] O usuário deve conseguir inserir uma nova senha.
+
+**Regra de Negócios (RN)**
+- [ ] O usuário precisa inserir uma nova senha.
+- [ ] O link enviado para a recuperação deve expirar em 3 horas.
+
 # Documentação da API On-line
 Com o servidor rodando acesse o endereço http://localhost:3333/api-docs/ no seu browser e verifique as rotas disponíveis no sistema.
 
